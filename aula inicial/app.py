@@ -1,5 +1,5 @@
 print("Olá mundo!")
-idade = 18; 
+idade = 18
 print(idade)
 aluno = "Daniel"
 nota = 6.5
@@ -11,10 +11,14 @@ print(type(nota))
 print(type(x))
 
 name = input("Digite um nome: ")
-print("Olá %s, bem vindo futuro dev em python!"% (name))
+print("Olá %s, bem vindo futuro dev em python!" % (name))
 print("Olá {} essa é uma outra forma de fazer".format(name))
 
-if name =="Daniel":
+if name == "Daniel":
     print("VOCÊ É BRABO!")
 else:
     print("VOCÊ NÃO É BRABO!")
+linguagens = ["Python", "Java", "C++", "C#", "Go", "Javascript",]
+print("Antes de listcomp = ", linguagens)
+linguagens = [item.upper() for item in linguagens]
+print("\n Depois da listcomp = ", linguagens)
